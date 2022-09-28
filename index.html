@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamburguesas y Boneless Liú</title>
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="shortcut icon" href="/assets/favicon.png" type="image/x-icon">
+</head>
+
+<body>
+
+    <nav>
+        <a class="link" href="/">
+            <div class="logo">
+                <img src="/assets/favicon.png" alt="logo">
+                <span class="title">Hamburguesas y Boneless Liú</span>
+            </div>
+        </a>
+        <svg id="ham" class="ham hamRotate ham8" viewBox="0 0 100 100" width="80"
+            onclick="this.classList.toggle('active')">
+            <path class="line top"
+                d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20" />
+            <path class="line middle" d="m 30,50 h 40" />
+            <path class="line bottom"
+                d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20" />
+        </svg>
+        <ul id="navbar">
+            <li><a class="link" href="#">Inicio</a></li>
+            <li><a class="link" href="#menu">Menú</a></li>
+            <li><a class="link" href="#contacto">Contacto</a></li>
+            <li><a class="link" href="#ubicacion">Ubicación</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero">
+        <h2>Preparate para probar</h2>
+        <h3>los mejores Boneless y Hamburguesas</h3>
+        <h3>de tu vida</h3>
+    </section>
+
+    <section class="sections-dark" id="menu">
+        <h2>Menú</h2>
+        <div class="menu">
+            <div>
+                <h2>Hamburguesas</h2>
+                <ul class="menu-items">
+                    <li>Sencilla</li>
+                    <li>Doble</li>
+                    <li>Salchiburger</li>
+                    <li>Hawaiana</li>
+                    <li>Hamburguesa de Boneless</li>
+                </ul>
+            </div>
+
+            <img src="/assets/burger.png" alt="burger">
+        </div>
+    </section>
+
+    <section class="sections-light">
+        <h2>Boneless</h2>
+        <div class="menu">
+            <div>
+                <ul class="menu-items">
+                    <li>BBQ</li>
+                    <li>Buffalo</li>
+                    <li>Mango Habanero</li>
+                </ul>
+            </div>
+
+            <img src="/assets/boneless.png" alt="boneless">
+        </div>
+    </section>
+
+    <section class="sections-dark" id="contacto">
+        <h2>Contactanos</h2>
+        <div class="menu">
+            <div>
+                <ul class="menu-items link">
+                    <li><b>Email:</b> <a class="link" href="mailto:example@example.org">example@example.org</a></li>
+                    <li><b>Telefono:</b> <a class="link" href="tel:000-000-000">000-000-000</a></li>
+                    <li><b>Facebook:</b> <a class="link" href="https://m.me/@username">@username</a></li>
+                </ul>
+            </div>
+
+            <img src="/assets/contact.gif" alt="contact">
+        </div>
+    </section>
+
+    <section class="sections-light" id="ubicacion">
+        <h2>Visitanos</h2>
+        <div>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14368.305061382813!2d-100.11736247974856!3d25.801057900176136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8662eec307ea2147%3A0xf9665e5b579e65a3!2sUniversidad%20Polit%C3%A9cnica%20de%20Apodaca!5e0!3m2!1sen!2smx!4v1664346155481!5m2!1sen!2smx"
+                style="border: none; border-radius: 1rem; height: 600px;min-width: 70vw; border:0;" allowfullscreen=""
+                loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+    <footer>
+        <span>&copy Copyright 2022, Nestor, Miguel, Arturito</span>
+    </footer>
+    <script defer src="/scripts/script.js"></script>
+</body>
+
+</html>
